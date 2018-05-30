@@ -1,9 +1,9 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
-function findMatching(drivers, name) {
-  for (const driver in drivers) {
-  if (driver) {
-  console.log(driver);
+function findMatching(drivers, string) {
+  for (const driver of drivers) {
+  if (driver === string) {
+  console.log(string);
 }
 }
 }
