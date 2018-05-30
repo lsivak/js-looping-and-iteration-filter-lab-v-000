@@ -1,9 +1,9 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
-function findMatching(collection, string) {
+function findMatching(collection, 'name') {
 debugger
   for (const driver of collection) {
-  if (string(driver)) {
+  if (driver === 'name')) {
   console.log(driver);
 }
 }
