@@ -4,7 +4,7 @@ function findMatching(drivers, string) {
 debugger
   for (const driver of drivers) {
   if (driver === string) {
-  console.log(driver);
+  console.log(driver.string);
 }
 }
 }
