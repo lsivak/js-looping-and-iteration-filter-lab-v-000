@@ -4,7 +4,7 @@ function findMatching(collection, string) {
 debugger
   for (const user of collection) {
   if (string === user) {
-  console.log(user);
+  console.log(user.driver);
 }
 }
 }
