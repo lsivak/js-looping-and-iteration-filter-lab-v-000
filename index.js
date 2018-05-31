@@ -7,7 +7,7 @@ function findMatching(collection, name) {
 })
 }
 function fuzzyMatch(collection, name) {
-  return collection.filter(function (guessDriver) {
- return guessDriver[0] === name
+  return collection.filter(function (guessDrivers) {
+ return guessDrivers[0][0] === name
 })
 }
