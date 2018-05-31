@@ -2,7 +2,7 @@
 
 function findMatching(collection, name) {
 
-    collection.filter(function (driver) {
+   return collection.filter(function (driver) {
   return driver === name
 })
 }
