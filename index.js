@@ -6,10 +6,11 @@ function findMatching(collection, name) {
   return driver.toLowerCase() === name.toLowerCase()
 })
 }
-function fuzzyMatch(collection, name) {
+function fuzzyMatch(collection, letters) {
+  let
    debugger
-  return collection.filter(function (drivers) {
- return drivers[0][0] === name
+  return collection.filter(function (driver) {
+ return drivers[0][0] === letters[0]
 
 })
 }
