@@ -10,7 +10,7 @@ function fuzzyMatch(collection, letters) {
 
    debugger
   return collection.filter(function (driver) {
- return drivers[0][0] === letters[0]
+ return driver[0][0] === letters[0]
 
 })
 }
