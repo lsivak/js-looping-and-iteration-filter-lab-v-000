@@ -7,7 +7,7 @@ function findMatching(collection, name) {
 })
 }
 function fuzzyMatch(collection, letters) {
-  let
+  let 
    debugger
   return collection.filter(function (driver) {
  return drivers[0][0] === letters[0]
