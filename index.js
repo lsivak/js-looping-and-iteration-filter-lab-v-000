@@ -6,3 +6,8 @@ function findMatching(collection, name) {
   return driver.toLowerCase() === name.toLowerCase()
 })
 }
+function findMatching(collection, name) {
+  return collection.filter(function (guessDriver) {
+ return guessDriver[0:1] === name
+})
+}
