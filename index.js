@@ -14,9 +14,9 @@ function fuzzyMatch(collection, letters) {
 
 })
 }
-function matchName(){
-debugger
-if(findMatching(collection, name) {
-  return name
-)}
+function matchName(collection, name) {
+
+   return collection.filter(function (driver) {
+  return driver.name === name
+})
 }
