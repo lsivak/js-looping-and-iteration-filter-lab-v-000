@@ -14,3 +14,9 @@ function fuzzyMatch(collection, letters) {
 
 })
 }
+function matchName(){
+debugger
+if(findMatching(collection, name) {
+  return name
+)}
+}
