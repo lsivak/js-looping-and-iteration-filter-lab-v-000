@@ -3,6 +3,6 @@
 function findMatching(collection, name) {
 
    return collection.filter(function (driver) {
-  return driver === name
+  return driver.toLowerCase === name.toLowerCase
 })
 }
